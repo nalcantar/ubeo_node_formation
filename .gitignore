@@ -119,3 +119,10 @@ $RECYCLE.BIN/
 /vendor/
 
 .idea*
+
+
+#NODEJS
+node_modules
+npm-debug.log
+favicon.ico
+config.js
