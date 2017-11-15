@@ -6,7 +6,17 @@
     <link rel="stylesheet" href="../public/style.css" />
 </head>
 <body>
-<h1>Express movies details template : test d'appication avec node js</h1>
-<div>Du contenu de détails ici.</div>
+    <% include ./partials/header %>
+
+    <div class="central">
+        <h1>Détails de <%= title %></h1>
+        <div>
+            <%= movieid %>
+        </div>
+    </div>
+
+    <footer>
+        <% include ./partials/footer %>
+    </footer>
 </body>
 </html>
